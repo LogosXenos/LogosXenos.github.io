@@ -29,3 +29,18 @@
 	color: white;
 	font-family: "Open Sans";
 }
+
+#footer-email {
+	text-align: left;
+}
+
+@media only screen and (max-width: 600px){
+	#footer-upper{
+		text-align: center;
+		column-count: 1;
+	}
+
+	#footer-email {
+		text-align: center;
+	}
+}
