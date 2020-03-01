@@ -1,0 +1,19 @@
+h1 {
+	font-family: "Open Sans" ;
+	font-weight: 800;
+	text-align: center;
+	font-size: 48px;
+}
+
+h2 {
+	font-family: "Open Sans";
+	font-weight: 700;
+	text-align: center;
+	font-size: 28px;
+	color: DodgerBlue;
+}
+
+p {
+	font-family: "Open Sans";
+	font-size: 18px;
+}

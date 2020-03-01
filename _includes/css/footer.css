@@ -1,0 +1,30 @@
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;		  
+}
+
+.fa:hover {
+	  opacity: 0.7;
+}
+
+.fa-twitter {
+	color: #55ACEE;
+}
+
+.fa-github {
+	color: #333;
+}
+
+#footer-upper {
+	text-align: center;
+	column-count: 2;
+}
+
+#footer-lower {
+	text-align: center;
+	background-color: DodgerBlue;
+	color: white;
+}
