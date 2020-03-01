@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hello everybody, I am Logos. Long ago, my interest in physics and doodling lived together in harmony. Then everything changed when I realize that I can combine comics and physics together. Fortunately, we don't need an avatar, the master of both comics and physics, to actually start learning physics through comics together. And although my physics and comics skills are decent, I have a lot to learn before I'm ready to help anyone. But I believe, together, we can learn physics...
