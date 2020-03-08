@@ -1,0 +1,44 @@
+{% assign className = "image"|append:{{include.tag}}|append:" image" %}
+
+
+<div class="w3-display-container">
+	{% for i in include.image %}
+		<img class={{ className }} tag="include.tag" src="{{i}}">
+	{%endfor%}
+	{% assign plusOne = "plusDivs(1,"|append:{{include.tag}}|append:")" %}
+	{% assign minusOne = "plusDivs(-1,"|append:{{include.tag}}|append:")" %}
+	<button class="w3-button w3-display-left" onclick="{{ minusOne }}">&#10094;</button>
+	<button class="w3-button w3-display-right" onclick="{{ plusOne }}">&#10095;</button>
+</div>
+
+
+
+<script charset="utf-8">
+	var slideId = {{ page.tag | jsonify }};
+	var slideIndex = [];
+
+	for (var i = 0; i < slideId.length; i++)
+	{
+		slideIndex.push(1);
+		showDivs(1, i)
+	}
+
+
+	function plusDivs(n, no) {
+	  showDivs(slideIndex[no] += n, no);
+	  
+	}
+
+	function showDivs(n, no) {
+		var i;
+		var x = document.getElementsByClassName(slideId[no]);
+		if (n > x.length) {slideIndex[no] = 1}
+		if (n < 1) {slideIndex[no] = x.length} ;
+		for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		}
+		x[slideIndex[no]-1].style.display = "block";
+		
+	}
+</script>
+
