@@ -3,7 +3,8 @@
 
 <div class="w3-display-container">
 	{% for i in include.image %}
-		<img class={{ className }} tag="include.tag" src="{{i}}">
+		{% assign imgDest = {{site.baseurl}}|append:{{i}} %}
+		<img class={{ className }} src="{{imgDest}}">
 	{%endfor%}
 	{% assign plusOne = "plusDivs(1,"|append:{{include.tag}}|append:")" %}
 	{% assign minusOne = "plusDivs(-1,"|append:{{include.tag}}|append:")" %}
