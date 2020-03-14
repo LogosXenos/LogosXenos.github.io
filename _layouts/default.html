@@ -17,4 +17,44 @@
 
 		{% include footer.html %}
 	</body>
+
+	{% if page.tag %}
+		<script charset="utf-8">
+			var slideId = {{ page.tag | jsonify }};
+			var slideIndex = []
+
+			for (var i = 0; i < slideId.length; i++)
+			{
+				slideIndex.push(1);
+				showDivs(1, i)
+			}
+
+			function plusDivs(n, no)
+			{
+				showDivs(slideIndex[no] += n, no)
+			}
+
+			function showDivs(n, no)
+			{
+				var i;
+				var x = document.getElementsByClassName(slideId[no]);
+				if (n > x.length)
+				{
+					slideIndex[no] = x.length
+				}
+				if ( n < 1 )
+				{
+					slideIndex[no] = 1
+				};
+
+				for ( i = 0; i < x.length; i++ )
+				{
+					x[i].style.display = "none";
+				}
+				x[slideIndex[no]-1].style.display = "block";
+			}
+		</script>
+	{% endif %}
+
+
 </html>
