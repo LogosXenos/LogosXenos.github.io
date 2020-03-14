@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Train Your Brain For Success"
-categories: note
+categories: hidden
 published: true
 author: Logos Xenos
 tagline: A Personal Note

@@ -53,6 +53,36 @@ img {
 	margin-right: auto;
 }
 
+.post-list{
+	width = 600px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+}
+
+.post-list-h2{
+	text-align: justify;
+}
+
+blockquote {
+	    padding: 0 1rem;
+		margin-left: 0;
+		color: #819198;
+		border-left: 0.3rem solid #dce6f0;
+
+		> :first-child {
+				  margin-top: 0;
+					  
+		}
+
+		> :last-child {
+				  margin-bottom: 0;
+					  
+		}
+					  
+}
+
+
 @media only screen and (max-width: 600px){
 	h1.title {
 		font-family: "Open Sans" ;

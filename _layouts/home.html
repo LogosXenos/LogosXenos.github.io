@@ -4,3 +4,28 @@ layout: default
 
 <h1>{{ site.description }}</h1>
 <img src="/assets/pages/Homepage.png" alt="Logos Xenos vs. Physics"/>
+
+<h1>Recent Posts</h1>
+
+{% if site.posts %}
+<ul class="post-list">
+	{% for post in site.posts %}
+	<li>
+		{% assign date_format = "%b %-d, %Y" %}
+		<span class = "post-meta">{{ post.date| date: date_format }}</span>
+		<h2 class="post-list-h2">
+			<a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
+		</h2>
+
+		{{ post.excerpt | markdownify | truncatewords: 30 }}
+
+		{% if page.date %}
+			<p>{{ page.date }}</p>
+		{% endif %}
+	</li>
+	{% endfor %}
+</ul>
+{% else %}
+	<h2>Coming Soon</h2>
+{% endif %}
+
