@@ -22,8 +22,40 @@ h2 {
 	font-family: "Open Sans";
 	font-weight: 700;
 	text-align: center;
-	font-size: 2em;
+	font-size: 2.5em;
 	color: black;
+}
+
+h3 {
+	font-family: "Open Sans";
+	font-weight: 700;
+	text-align: center;
+	font-size: 2.2em;
+	color: SlateBlue;
+}
+
+h4 {
+	font-family: "Open Sans";
+	font-weight: 700;
+	text-align: center;
+	font-size: 2em;
+	color: SlateBlue;
+}
+
+h5 {
+	font-family: "Open Sans";
+	font-weight: 700;
+	text-align: center;
+	font-size: 1.7em;
+	color: SlateBlue;
+}
+
+h6 {
+	font-family: "Open Sans";
+	font-weight: 700;
+	text-align: center;
+	font-size: 1.5em;
+	color: SlateBlue;
 }
 
 p {
@@ -35,7 +67,8 @@ p {
 	text-align: justify;
 }
 
-ul {
+ul,
+ol{
 	font-family: "Open Sans";
 	font-size: 18px;
 	width: 600px;
@@ -65,21 +98,81 @@ img {
 }
 
 blockquote {
-	    padding: 0 1rem;
-		margin-left: 0;
-		color: #819198;
-		border-left: 0.3rem solid #dce6f0;
+	padding-left: 1em;
+	border-left: 0.2em solid DodgerBlue;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: 100;
+	color: DodgerBlue;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: justify;
+	background-color: #cce6ff;
+	padding-right: 1em;
+	font-style: italic;
+}
 
-		> :first-child {
-				  margin-top: 0;
-					  
-		}
+code {
+	padding: 2px 4px;
+	font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-size: 18px;
+	color: DodgerBlue;
+	border-radius: 0.3rem;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-		> :last-child {
-				  margin-bottom: 0;
-					  
-		}
-					  
+pre {
+	padding: 0.8rem;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	color: DodgerBlue;
+	word-wrap: normal;
+	background-color: #cce6ff;
+	border: solid 1px DodgerBlue;
+	border-radius: 0.3rem;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+	> code {
+		padding: 0;
+		margin: 0;
+		font-size: 18px;
+		color: DodgerBlue;
+		word-break: normal;
+		white-space: pre;
+		background: transparent;
+		border: 0;
+	}
+}
+
+table {
+	/*display: block;*/
+	overflow: auto;
+	/*word-break: keep-all;*/
+	/*-webkit-overflow-scrolling: touch;*/
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: bold;
+	text-align: center;
+	background-color: #cce6ff;
+}
+
+th,
+td {
+	padding: 0.5rem 1rem;
+	border: 2px solid DodgerBlue;
+	text-align: center;
 }
 
 
