@@ -72,3 +72,27 @@ categories: hidden
 	- Eg: If someone is well acquainted with a masked man, the they must know the identity of the masked man
 
 ## Ch2 If/Then and All/None
+- **Denying the Consequent**: If p then q. ~q, so ~p.
+	- Valid argument
+	- **Resolution 1**: The hypothesis p is false
+	- **Resolution 2**: Reinterpret the meaning of the hypothesis p
+- **Affirming the Consequent**: If p then q. q, so p.
+	- Invalid argument
+- **Affirming the Antecedent**: If p then q. p, so q.
+	- Valid argument
+- **Denying the Antecedent**: If p then q. ~p, so ~q.
+	- Invalid argument
+- There is an asymmetry in verifying and falsifying hypotheses. It is easy to disprove a hypothesis (denying the consequent), but difficult to ensure the hypothesis is correct.
+- **Universal proposition**: Statements involving every member of a set
+	- Can be disproved by just one counterexample
+	> **Karl Popper** <br>
+	> No open universal proposition can be confirmed beyond all conceivable future correction, though some can be decisively disproved. 
+	- Scientific theories cannot be confirmed to be logically true, but it can be demonstrated to be practically true
+- **Sufficient condition**: If p then q
+- **Necessary condtion**: If ~p then ~q
+- Sufficient and necessary = If and only if = Iff
+- *Causally* necessary and *causally* sufficient conditions are conditions that pertains to the law of nature, as opposed to *logical* conditions that leads to logical contradictions if denied.
+- Example: Heredity vs. Surroundings
+	- **Correct argument**: Heredity contributes to the ability we have
+	- **Fallacy**: Heredity decides everything in life
+	- It is tempting to convert opponent's argument to a universal one for ease of attack, but this is a fallacy
