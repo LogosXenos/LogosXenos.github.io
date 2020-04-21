@@ -122,4 +122,8 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
-{{ page.comments }}
+{% if page.comments %}
+	I should have a comment section
+{% endif %}
+
+I don't have a comment section. My comment value is {{page.comments}}.
