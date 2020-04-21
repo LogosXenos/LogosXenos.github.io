@@ -96,3 +96,15 @@ categories: hidden
 	- **Correct argument**: Heredity contributes to the ability we have
 	- **Fallacy**: Heredity decides everything in life
 	- It is tempting to convert opponent's argument to a universal one for ease of attack, but this is a fallacy
+	- We should not strive for the middle ground but the truth. If the truth is extreme, then so be it.
+	- The negation of a universal statement is its contradictory statement, not the contrary statement
+		- Negation of *Every* is *Not all*, not *Nothing*.
+## Ch 3 Evasion and Falsification
+- **No-true-Scotsman Move**: Using arbitrary redefinition to make the original statement true.
+- **Apriori truth**: The truth of the statement does not refer to anything else.
+	- **Analytically necessary**: Truth is known purely by understanding the meaning of the words.
+	- **Logically necessary**: Denying the statement logically leads to contradiction.
+- **Aposteriori truth**: The truth of the statement depends on what can/have happened
+	- **Synthetic statement**: Truth cannot be known purely by understanding the meaning of the words
+	- **Logically contingent**: The contradiction of the statement is not necessarily true or false
+- The No-true-Scotsman Move modifies the definition of words so the statement becomes an apriori truth.
